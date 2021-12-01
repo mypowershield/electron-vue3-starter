@@ -15,8 +15,6 @@ export default {
   data() {
     return {};
   },
-  mounted() {
-    console.log(location.href)
-  },
+  mounted() {},
 };
 </script>
