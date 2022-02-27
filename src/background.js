@@ -67,7 +67,7 @@ app.on("ready", async () => {
 });
 
 ipcMain.on("sendDesktopNotification", (e, data) => {
-  let notify = new Notification({ body: data.body, title: data.title });
+  let notify = new Notification(data);
   notify.show();
 });
 

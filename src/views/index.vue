@@ -15,7 +15,7 @@ import { ipcRenderer } from "electron";
 export default {
   methods: {
     desktopNotify() {
-      ipcRenderer.send("sendDesktopNotification", { title: "notify title", body: "notify body" });
+      ipcRenderer.send("sendDesktopNotification", { title: "1223", body: "124e234e", icon:"http://cl.ly/J49B/3951818241085781941.png" });
     },
     swal() {
       this.$swal({
